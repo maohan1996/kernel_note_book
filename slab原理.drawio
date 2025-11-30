@@ -592,9 +592,6 @@
         <mxCell id="Un6BUs0F3P4qh0kEw8W6-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;b&gt;2、使用slab分配内存的原因&lt;/b&gt;&lt;br&gt;&lt;br&gt;伙伴系统管理物理内存的最小单位是物理内存页 page。也就是说，当内核向伙伴系统申请内存时，至少要申请一个物理内存页。而从内核实际运行过程中来看，无论是从内核态还是从用户态的角度来说，对于内存的需求量往往是以字节为单位，通常是几十字节到几百字节不等，远远小于一个页面的大小。如果仅仅为了这几十字节的内存需求，而专门为其分配一整个内存页面，就会对内存资源造成巨大浪费。" vertex="1">
           <mxGeometry height="117" width="670.5" x="-4380.5" y="2570" as="geometry" />
         </mxCell>
-        <mxCell id="htGNLDgVOwQgRhggPTHt-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
-          <mxGeometry height="30" width="60" x="-2179" y="1506" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
